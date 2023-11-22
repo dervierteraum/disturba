@@ -6,32 +6,23 @@
     background-color: black;
     
     }
-    @font-face {
-        font-family: myFirstFont;
-        src: url(font/Garamondt-Italic.woff);
-      }
-    @media (min-aspect-ratio: 16/9) {
-        #videoBG {
-            width:100%;
-            height: 100%;
-        }
-    }
-    @media (max-aspect-ratio: 16/9) {
-        #videoBG { 
-          
-          width:100%;
-          height: 100%;
-      }
-
-            
-        }
+  
     
    
-    #videoBG {
-        width: 100%;
-        height: 100%;
-     
-     
-      }
+   
 
+      .bg-video {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-size: cover;
+        background: no-repeat center;
+        width:100vw;
+        height: 100vh;
+        user-select: none;
+      
+       
+      
+    
+      }
       
